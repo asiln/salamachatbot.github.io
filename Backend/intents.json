@@ -1,0 +1,158 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "marhaba",
+        "merhaba",
+        "salam"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "What help can i get?", "What are your expertise?",
+        "how can you help me?",
+        "What do you provide?","What do you do?",
+        "Who are you?",
+        "What are you here for?",
+        "What can you help me with?",
+        "Is anyone there?",
+        "Are you a real person?",
+        "Tell me about yourself!"
+      ],
+      "responses": [
+        "Love that question! My name's Salama, your robot friend! I've been trained to support you regarding any medical assitance. Technically, I'm a computer that's been trained by a human, but I like to think of myself as human!",
+        "Hey! I love that question! My name is Salama, and I can help you with anything medical related"
+      ]
+    },
+    {
+      "tag": "Cardiologist",
+      "patterns": [
+        "I have bad chest discomfort and I have a history of heart disease",
+        "I have shortness of breath and I have a history of heart disease",
+        "I am noticing swelling in my legs and I have a history of heart disease",
+        "I am having low blood pressure and I have a history of heart disease ",
+        "I developed ulcers and my blood veins are bulging and I have a history of heart disease",
+        "I am having high blood pressure and I have a history of heart disease "
+      ],
+      "responses": [
+        "We recommend you an appointment with our Cardiologist",
+        "We advice you to meet up with a cardiologist asap!!"
+      ]
+    },
+{
+          "tag": "Orthodontist",
+          "patterns": [
+              "Jaw pain",
+              "Tooth ache",
+              "I am feeling pain in my teeth",
+              "I noticed cavities in my teeth",
+              "Help me regarding tooth filling",
+              "I want tooth removal"
+          ],
+          "responses": [
+              "We recommend you an appointment with our Orthodontist"
+          ]
+      },
+{
+          "tag": "Ophthalmologist",
+          "patterns": [
+              "My vision has become blurry",
+              "I can not see well",
+              "Eye pain, eye strain and headache",
+              "Sudden sensitivity to light",
+              "Dry, red, itchy eyes"
+          ],
+          "responses": [
+              "We recommend you an appointment with our Ophthalmologist"
+          ]
+      },
+{
+          "tag": "Orthopedics",
+          "patterns": [
+              "I feel numbness in my arms and legs",
+              "I have severe muscle pain since a while",
+              "I have joint pain",
+              "I feel like my body has become very stiff",
+              "Restricted range of motion",
+              "Swelling of bone"
+          ],
+          "responses": [
+              "We recommend you an appointment with our Orthopedics"
+          ]
+      },
+{
+          "tag": "Pediatric",
+          "patterns": [
+              "My son",
+              "My kid has fever",
+              "My daughter",
+              "My kid has diarrhea and vomiting",
+              "My kid has mysterious rashes",
+              "my kid has a cold"
+          ],
+          "responses": [
+              "We recommend you an appointment with our Pediatric"
+          ]
+      },
+    {
+      "tag": "General Practitioner",
+      "patterns": [
+        "I have abnormal blood pressure",
+        "I feel like my diabetes and cholestrol levels are getting bad",
+        "I am worried about having cancer",
+        "I am worried about having contracted sexually transmitted disease",
+        "I want to my wound to be checked up",
+        "I am worried about getting an asthma attack",
+        "I can't sleep well, I have migraine and my head hurts so bad",
+        "I got cold and flu",
+        "I have a fever",
+        "I wnat a checkup regarding my broken bone",
+        "I have muscle strains and sprains"
+      ],
+      "responses": [
+
+        "We recommend you an appointment with our General Practitioner"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    }
+  ]
+}
